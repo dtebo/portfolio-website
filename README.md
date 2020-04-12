@@ -28,13 +28,13 @@ _ Watch this walk through video:  https://youtu.be/P2Y9W29kcjs
 
 - [x] Unzip the code and copy the site to your git repository that you just set up
   * Note that we won't be utilizing the pre processed CSS structure, you can just ignore any folder with LESS or SASS (SCSS) in it.
-- [ ] Work on the MVP requirements listed below
+- [x] Work on the MVP requirements listed below
 
 ### Follow these steps for completing your project after your MVP is completed:
 
-- [ ] Submit a Pull-Request to merge `<firstName-lastName>` Branch into master (student's Repo). **Please don't merge your own pull request**
-- [ ] Add your Project Manager as a Reviewer on the Pull-request
-- [ ] PM then will count the HW as done by merging the branch back into master.
+- [x] Submit a Pull-Request to merge `<firstName-lastName>` Branch into master (student's Repo). **Please don't merge your own pull request**
+- [x] Add your Project Manager as a Reviewer on the Pull-request
+- [x] PM then will count the HW as done by merging the branch back into master.
 
 ## MVP Requirements
 
@@ -51,4 +51,11 @@ _ Watch this walk through video:  https://youtu.be/P2Y9W29kcjs
 ## Stretch
 
 - [ ] Study the JavaScript used in your template and see if you can tweak any of the behavior to see how it works
-- [ ] Download another template and see if you can get the CSS preprocessor working on the project
+- [x] Download another template and see if you can get the CSS preprocessor working on the project 
+
+- NOTE: Added Sass property to _header.scss for transition to see what CSS it generates. '@include vendor('transition', 'height #{_duration(transition)} ease-in');' generated the following:
+
+'-moz-transition: height 0.2s ease-in;
+  -webkit-transition: height 0.2s ease-in;
+  -ms-transition: height 0.2s ease-in;
+  transition: height 0.2s ease-in;'
