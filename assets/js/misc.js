@@ -9,8 +9,8 @@ let controller = new ScrollMagic.Controller();
 let scene = new ScrollMagic.Scene({
     triggerElement: '#three',
     triggerHook: 1,
-    duration: "100%"
+    duration: "200%"
 })
 .setClassToggle("#three", "visible")
-.addIndicators()
+// .addIndicators()
 .addTo(controller);
